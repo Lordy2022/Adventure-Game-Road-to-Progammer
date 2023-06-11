@@ -14,7 +14,7 @@ def main():
     else:
         print("You aren't taking this world seriously enough. You lose - GAME OVER")
 
-    print("Thank you for trying", name)
+    print("Thank you for playing", name)
 
 
 def mediocre_existence(name):
@@ -50,11 +50,40 @@ def start_adventure(name):
     answer = input("Neat! We'll start from tomorrow, your first day of school. Your teacher asks what everyone would like to be when they grow up? (I want to work as a Fireman/I LOVE Lego, so I want to build things): ").lower()
 
     if answer == "i want to work as a fireman":
-        print("You become a brave firefighter, saving lives and making a difference in your community. Congratulations, you WIN!")
+        print("You become a brave firefighter, saving lives and making a difference in your community. Congratulations, what an amazing life... but not quite what you were looking for in your heart of hearts. You lose - GAME OVER")
     elif answer == "i love lego, so i want to build things":
-        print("You dedicate your life to creating amazing Lego structures. You become a renowned Lego designer, traveling the world and inspiring others with your creations. Congratulations, you WIN!")
+        on_the_right_path(name)
     else:
         print("You aren't taking this world seriously enough. You lose - GAME OVER")
+
+
+def on_the_right_path(name):
+    answer = input("""You spend most of your childhood building amazing creations with Lego (fantastic move, what a great childhood). 
+Before you know it, you're about to start your first day of secondary school (time flies). What are you having for breakfast, before the big day? (I fancy some pancakes/Maybe a handful of some dried almonds?): """).lower()
+
+    if answer == "maybe some dried almonds?":
+        print("You choke on the almonds, and die. You lose - GAME OVER")
+    elif answer == "i fancy some pancakes":
+        fantastic_breakfast(name)
+    else:
+        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+
+
+def fantastic_breakfast(name):
+    answer = input("""The perfect start to the day, you have an amazing first day of school, in your first class you meet your new best friend, Hal. You bond over your love Lego, and the two of you become inseparable.
+    You spend the next year building amazing creations together, however as you get older you decide you need to grow up and stop playing with Lego. I suppose this was always going to happen, but it's still sad. 
+    As with most burgeoning young teenagers, you dip your feet in the dating scene, you and Hal spend a less time together, and you begin to drift apart. This is also sad, Hal was a great chap and did a great job of keeping you on the right path.
+    It's now time to pick which subjects you want to study for your GCSEs. You're not sure what you want to do, but you know deep down you still love to build things. For your final option, you are stuck beteween either taking...(Food Technology/Computer Science): """).lower()
+
+    if answer == "i want to go to the park":
+        print("You go to the park, and have a great time. You lose - GAME OVER")
+    elif answer == "i want to go to school":
+        print("You go to school, and have a great time. You lose - GAME OVER")
+    else:
+        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+
+
+
 
 
 if __name__ == '__main__':
