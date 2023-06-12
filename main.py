@@ -63,7 +63,7 @@ def on_the_right_path(name):
     answer = input("""You spend most of your childhood building amazing creations with Lego (fantastic move, what a great childhood). 
 Before you know it, you're about to start your first day of secondary school (time flies). What are you having for breakfast, before the big day? (I fancy some pancakes/Maybe a handful of some dried almonds?): """).lower()
 
-    if answer == "maybe some dried almonds?":
+    if answer == "maybe a handful of some dried almonds?":
         print("You choke on the almonds, and die. You lose - GAME OVER.")
     elif answer == "i fancy some pancakes":
         fantastic_breakfast(name)
@@ -102,7 +102,7 @@ So that is exactly what you do, you go out and get a life. You spend the next fe
 So, you decide to take a walk to reflect on your choice. Where are you going? (I'm going to the park/No idea, I just need to leave the house): """).lower()
      if answer == "i'm going to the park":
         print("""You go to the same boring park that you always go to, you sit on the same boring bench that you always sit on, and you think about the same boring things that you always think about. Maybe you should do a nice boring course, Mathematics sounds good? 
-You spend the rest of your time at college surrounded by numbers and it drives you insane. You muster the strength to get into your final year, where you have a new teacher, Mr Andrews. 
+You spend the rest of your time at Sixth form surrounded by numbers and it drives you insane. You muster the strength to get into your final year, where you have a new teacher, Mr Andrews. 
 
 His monotone voice and boring teaching style, causes you to die from boredom. You lose - GAME OVER.""")
      elif answer == "no idea, i just need to leave the house":
@@ -122,7 +122,7 @@ You have a choice to make, stay in your home town, or move to Nottingham with Ha
         print("""You stay in your home town, you get a job at the local supermarket (just while you find your feet of course). But you never do find your feet, infact you start to feel comfortable...
 Maybe a little too comfortable! You spend the rest of your life stacking shelves. You lose - GAME OVER.""")
     elif answer == "i'm going to move to nottingham":
-        print("""You move to Nottingham with Hal, you get a job at a local university in the Digital Technologies department. You spend your extra hours learning how to code independently, until you managed to find yourself on an amazing course called Code In Place.
+        print("""You move to Nottingham with Hal, but instead you get a job at a local university in the Digital Technologies department. You spend your extra hours learning how to code independently, until you apply and get accepted into amazing course called Code In Place.
 This course is ran by Stanford University Profesors and you learn how to code in Python. You spend the next few weeks learning how to code, and you build some amazing things. You even build a game, where you can choose your own adventure.
 Shortly after you finish this course, you land your dream job as a Software Engineer. Sometimes, life really is about taking the road less travelled. You win - GAME OVER (amazing work conrgatulations!))""")
     else:
