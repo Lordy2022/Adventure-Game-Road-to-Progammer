@@ -14,7 +14,7 @@ def main():
     elif answer == "i want adventure":
         adventure(name)
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
     print("Thank you for playing", name)
 
@@ -27,7 +27,7 @@ def mediocre_existence(name):
     elif answer == "i want to be a portable toilet cleaner":
         print("You blink, and all of a sudden 30 years have passed you by... While doing work on a building site (during a particularly cold and icy winter's morning), you slip and fall into the builders' waste. Congratulations, you died mediocre! - GAME OVER.")
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 
 def adventure(name):
@@ -39,24 +39,24 @@ def adventure(name):
         answer = input("This means total commitment. Once you begin the path, there is no leaving the path. Are you sure you're ready for that? I mean really ready? (I-I guess so./Can we forget I asked?): ").lower()
 
         if answer == "can we forget i asked?":
-            print("Met with mild adversity you crumbled, you are no Hal nor Hercules... you lose! - GAME OVER")
+            print("Met with mild adversity you crumbled, you are no Hal nor Hercules... you lose! - GAME OVER.")
         elif answer == "i-i guess so.":
             start_adventure(name)
         else:
-            print("You aren't taking this world seriously enough. You lose - GAME OVER")
+            print("You aren't taking this world seriously enough. You lose - GAME OVER.")
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 
 def start_adventure(name):
     answer = input("Neat! We'll start from tomorrow, your first day of school. Your teacher asks what everyone would like to be when they grow up? (I want to work as a Fireman/I LOVE Lego, so I want to build things): ").lower()
 
     if answer == "i want to work as a fireman":
-        print("You become a brave firefighter, saving lives and making a difference in your community. Congratulations, what an amazing life... but not quite what you were looking for in your heart of hearts. You lose - GAME OVER")
+        print("You become a brave firefighter, saving lives and making a difference in your community. Congratulations, what an amazing life... but not quite what you were looking for in your heart of hearts. You lose - GAME OVER.")
     elif answer == "i love lego, so i want to build things":
         on_the_right_path(name)
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 
 def on_the_right_path(name):
@@ -64,11 +64,11 @@ def on_the_right_path(name):
 Before you know it, you're about to start your first day of secondary school (time flies). What are you having for breakfast, before the big day? (I fancy some pancakes/Maybe a handful of some dried almonds?): """).lower()
 
     if answer == "maybe some dried almonds?":
-        print("You choke on the almonds, and die. You lose - GAME OVER")
+        print("You choke on the almonds, and die. You lose - GAME OVER.")
     elif answer == "i fancy some pancakes":
         fantastic_breakfast(name)
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 
 def fantastic_breakfast(name):
@@ -79,7 +79,7 @@ You spend the next year building amazing creations together, however as you get 
 As with most burgeoning young teenagers, you dip your feet in the dating scene, you and Hal spend a less time together, and you begin to drift apart. This is also sad, Hal was a great chap and did a great job of keeping you on the right path.
 Before you know it, a few hormone filled years have passed... It's now time to pick which subjects you want to study for your GCSEs.
 
-You're not sure what you want to do, but you know deep down you still love to build things. For your final option, you are stuck beteween either taking...(Food Technology/Computer Science): """).lower()
+You're not sure what you want to do, but you know deep down you still love to build things. For your final option, you are stuck between either taking...(Food Technology/Computer Science): """).lower()
 
     if answer == "computer science":
         computer_science(name)
@@ -87,13 +87,13 @@ You're not sure what you want to do, but you know deep down you still love to bu
         print("""You pick Food Technology, where you find a new passion for the science around creating amazing food (you also rekindle your love for eating pancakes and boy, do you LOVE eating pancakes).
 You spend the next few years eating pancakes and other food... A LOT of food.
 The good news is, you eventually become a professional eater and are known around the world for your endeavours. The bad news is, you die of a heart attack at the age of 35.
-Your old friend Hal does turn up to the funeral to show his condolences though, I always knew he was a good guy... You lose - GAME OVER""")
+Your old friend Hal does turn up to the funeral to show his condolences though, I always knew he was a good guy... You lose - GAME OVER.""")
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 
 def computer_science(name):
-     answer= input("""You pick Computer Science, although you have never really read much into this idea. You didn't knoww exactly what this entaled, you just figured that it meant you would be building things with code.
+     answer= input("""You pick Computer Science, although you have never really read much into this idea. You didn't know exactly what this entailed, you just figured that it meant you would be building things with code.
 You were inspired to pick this choice after being addicted to Facebook during your teen years and watching The Social Network movie (ahh, aren't teenagers easily influenced). Time to go home and tell your parents the good news.
 
 You tell your parents you want to study Computer Science and they are over the Moon, they always knew you were a smart kid, your older brother however is not so impressed. He gives you a wedgie and tells you that you need to go out and get a life.
@@ -101,14 +101,14 @@ So that is exactly what you do, you go out and get a life. You spend the next fe
 
 So, you decide to take a walk to reflect on your choice. Where are you going? (I'm going to the park/No idea, I just need to leave the house): """).lower()
      if answer == "i'm going to the park":
-        print("""You go to the same boring park that you always go to, you sit on the same boring bench that you always sit on, and you think about the same boring things that you always think about. Maybe you should do a nice boring course, mathematics sounds good? 
+        print("""You go to the same boring park that you always go to, you sit on the same boring bench that you always sit on, and you think about the same boring things that you always think about. Maybe you should do a nice boring course, Mathematics sounds good? 
 You spend the rest of your time at college surrounded by numbers and it drives you insane. You muster the strength to get into your final year, where you have a new teacher, Mr Andrews. 
 
-His monotone voice and boring teaching style, causes you to die from boredom. You lose - GAME OVER""")
+His monotone voice and boring teaching style, causes you to die from boredom. You lose - GAME OVER.""")
      elif answer == "no idea, i just need to leave the house":
         leaving_the_house_with_no_plan_adventure(name)
      else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 
 def leaving_the_house_with_no_plan_adventure(name):
@@ -120,16 +120,14 @@ You can't help but remember what Hal said to you a couple of years ago about Her
 You have a choice to make, stay in your home town, or move to Nottingham with Hal? (I'm going to stay in my home town/I'm going to move to Nottingham): """).lower()
     if answer == "i'm going to stay in my home town":
         print("""You stay in your home town, you get a job at the local supermarket (just while you find your feet of course). But you never do find your feet, infact you start to feel comfortable...
-Maybe a little too comfortable! You spend the rest of your life stacking shelves. You lose - GAME OVER""")
+Maybe a little too comfortable! You spend the rest of your life stacking shelves. You lose - GAME OVER.""")
     elif answer == "i'm going to move to nottingham":
-        print("""You move to Nottingham with Hal, you get a job at a local tech company and you spend your evenings and weekends building amazing things. You and Hal start a business together, and you build a multi-million pound company.""")
+        print("""You move to Nottingham with Hal, you get a job at a local university in the Digital Technologies department. You spend your extra hours learning how to code independently, until you managed to find yourself on an amazing course called Code In Place.
+This course is ran by Stanford University Profesors and you learn how to code in Python. You spend the next few weeks learning how to code, and you build some amazing things. You even build a game, where you can choose your own adventure.
+Shortly after you finish this course, you land your dream job as a Software Engineer. Sometimes, life really is about taking the road less travelled. You win - GAME OVER (amazing work conrgatulations!))""")
     else:
-        print("You aren't taking this world seriously enough. You lose - GAME OVER")
+        print("You aren't taking this world seriously enough. You lose - GAME OVER.")
         
-
-
-
-
 
 if __name__ == '__main__':
     main()
