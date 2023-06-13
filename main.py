@@ -127,7 +127,7 @@ Maybe a little too comfortable! You spend the rest of your life stacking shelves
     elif answer == "i'm going to move to nottingham":
         print("""You move to Nottingham with Hal, but instead you get a job at a local university in the Digital Technologies department. You spend your extra hours learning how to code independently, until you apply and get accepted into amazing course called Code In Place.
 This course is ran by Stanford University Profesors and you learn how to code in Python. You spend the next few weeks learning how to code, and you build some amazing things. You even build a game, where you can choose your own adventure.
-Shortly after you finish this course, you land your dream job as a Software Engineer. Sometimes, life really is about taking the road less travelled. You win - GAME OVER (amazing work conrgatulations!))""")
+Shortly after you finish this course, you land your dream job as a Software Engineer. Sometimes, life really is about taking the road less travelled. You WIN! (amazing work congratulations, you have completed the game))""")
     else:
         print("You aren't taking this world seriously enough. You lose - GAME OVER.")
         
