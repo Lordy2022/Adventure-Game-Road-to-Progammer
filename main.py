@@ -36,17 +36,19 @@ def adventure(name):
     if answer == "actually, mediocre sounds good...":
         print("If you deserve it, the universe will serve it! Congratulations, you died mediocre! - GAME OVER.")
     elif answer == "i know.":
-        answer = input("This means total commitment. Once you begin the path, there is no leaving the path. Are you sure you're ready for that? I mean really ready? (I-I guess so./Can we forget I asked?): ").lower()
-
-        if answer == "can we forget i asked?":
-            print("Met with mild adversity you crumbled, you are no Hal nor Hercules... you lose! - GAME OVER.")
-        elif answer == "i-i guess so.":
-            start_adventure(name)
-        else:
-            print("You aren't taking this world seriously enough. You lose - GAME OVER.")
+        start_adventure(name)
     else:
         print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
+def start_adventure(name):
+    answer = input("This means total commitment. Once you begin the path, there is no leaving the path. Are you sure you're ready for that? I mean really ready? (I-I guess so./Can we forget I asked?): ").lower()
+
+    if answer == "can we forget i asked?":
+        print("Met with mild adversity you crumbled, you are no Hal nor Hercules... you lose! - GAME OVER.")
+    elif answer == "i-i guess so.":
+        start_adventure(name)
+    else:
+         print("You aren't taking this world seriously enough. You lose - GAME OVER.")
 
 def start_adventure(name):
     answer = input("Neat! We'll start from tomorrow, your first day of school. Your teacher asks what everyone would like to be when they grow up? (I want to work as a Fireman/I LOVE Lego, so I want to build things): ").lower()
