@@ -4,6 +4,7 @@ def main():
         print("Please enter a valid name.")
         name = input("Type your name: ")
     print("Welcome, {}! You have arrived in this world, congratulations!".format(name))
+    
     print("You have two choices: you can either have a mediocre existence, or you can have an adventure - but you can't go through this world not knowing how to spell... or read... *hint hint*")
 
 
