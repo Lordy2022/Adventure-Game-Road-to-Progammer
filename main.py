@@ -119,7 +119,7 @@ def leaving_the_house_with_no_plan_adventure(name):
 You two haven't seen each other in years, but you pick up right where you left off. You tell him about your dilemma and he tells you that he is studying computer science at sixth form and that you should join him.
 He gives you an short pep talk about Hercules and the crossroads, and you feel inspired to take the road less travelled. You and Hal spend the next two years studying together, and you both get into the same university to study Computer Science.
 
-You can't help but remember what Hal said to you a couple of years ago about Hercules and taking the road less travelled. You decide to take a different path, you never needed to education system to teach you how to build things, you already knew how to do that.
+You can't help but remember what Hal said to you a couple of years ago about Hercules and taking the road less travelled. You decide to take a different path, you never needed the education system to teach you how to build things, you already knew how to do that.
 You have a choice to make, stay in your home town, or move to Nottingham with Hal? (I'm going to stay in my home town/I'm going to move to Nottingham): """).lower()
     if answer == "i'm going to stay in my home town":
         print("""You stay in your home town, you get a job at the local supermarket (just while you find your feet of course). But you never do find your feet, infact you start to feel comfortable...
